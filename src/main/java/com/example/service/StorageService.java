@@ -18,5 +18,10 @@ public class StorageService {
 	public List<Book> getAllBooks(){
 		return db;
 	}
-
+	public void delete(int index)
+	{
+		db.remove(index);
+		
+		
+	}
 }
